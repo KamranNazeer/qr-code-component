@@ -12,13 +12,15 @@ body{
     justify-content: center;
     flex-direction: row;
     align-items: center;
+    font-family: 'Outfit', sans-serif;
 }
 .img{
     width: 100%;
     display: block;
     margin : auto;
+    border-radius: 7px;
 } 
-.box{
+.card{
     border-radius: 10px;
     text-align : center;
     max-width: 250px;
@@ -27,10 +29,14 @@ body{
     background-color: white;
     
 }
-#pro{
+.heading{
     color:hsl(218, 44%, 22%);
+    margin-top:14px;
 }
-#opra{
+.para{
        color:hsl(220, 15%, 55%);
        font-size: 15px;
+       margin-top:10px;
+       margin-bottom:10px;
+       font-size:13px;
 }
